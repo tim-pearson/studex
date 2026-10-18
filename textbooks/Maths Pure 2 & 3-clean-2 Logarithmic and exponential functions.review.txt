@@ -6,19 +6,19 @@ page 12: equation OCR failed, bbox [249, 607, 283, 621]: =− 42
 page 12: equation OCR failed, bbox [249, 622, 268, 636]: = 2
 page 14: equation OCR failed, bbox [347, 634, 396, 649]: Factorise.
 page 14: OCR returned nothing for region bbox [347, 704, 454, 718]
-page 15: equation OCR failed, bbox [106, 247, 170, 262]: e = − 320 25 x
 page 15: equation OCR failed, bbox [189, 247, 248, 262]: f = +
 page 15: equation OCR failed, bbox [106, 711, 186, 725]: 
 page 15: equation OCR failed, bbox [108, 711, 401, 727]: c 32 −= 52 xx d 34 += 39 − xx
+page 15: equation OCR failed, bbox [106, 247, 170, 262]: e = − 320 25 x
 page 19: equation OCR failed, bbox [105, 125, 132, 141]: a e
 page 19: equation OCR failed, bbox [108, 167, 545, 182]: a ln3 b ln1.4 c ln 0.9 d ln 0.15
 page 19: equation OCR failed, bbox [105, 205, 140, 226]: a e
 page 19: equation OCR failed, bbox [500, 205, 538, 223]: ln 1 2 −
 page 19: equation OCR failed, bbox [105, 250, 159, 267]: a e5 =
 page 19: equation OCR failed, bbox [105, 291, 158, 307]: a e1 = 8
-page 19: equation OCR failed, bbox [367, 291, 421, 307]: c = +
 page 19: equation OCR failed, bbox [105, 331, 158, 348]: a e1 = 3
 page 19: equation OCR failed, bbox [105, 371, 158, 387]: a e10
+page 19: equation OCR failed, bbox [367, 291, 421, 307]: c = +
 page 19: equation OCR failed, bbox [105, 596, 207, 612]: c 6e −− 13e5 = 0
 page 19: OCR returned nothing for region bbox [90, 731, 230, 746]
 page 20: OCR returned nothing for region bbox [63, 707, 349, 721]
@@ -27,3 +27,19 @@ page 26: equation OCR failed, bbox [125, 660, 255, 677]: f( )1 =+ 2254 −− 12
 page 26: OCR returned nothing for region bbox [96, 699, 573, 727]
 page 26: OCR returned nothing for region bbox [256, 730, 574, 745]
 auto-fixed OCR mark: ' decimal places. [61' -> ' decimal places. [6]'
+page 8: inferred for part 'a': b^2 = 25
+page 8: ambiguous for part 'h': \log_c 5 = y
+page 10: ambiguous for part 'c': 3\log_5 2 - \log_5 4
+page 15: inferred for part 'f': 3^x = 2^{x+1}
+page 15: no_usable for part 'c': c 32 −= 52 xx d 34 += 39 − xx
+page 15: no_usable for part 'd': c 32 −= 52 xx d 34 += 39 − xx
+page 19: inferred for part 'a': e^{-3}
+page 19: no_usable for part 'e':
+page 19: no_usable for part 'd': a ln3 b ln1.4 c ln 0.9 d ln 0.15
+page 19: inferred for part 'a': e^{-\ln 2} = \frac{1}{2} \ln 9
+page 19: no_usable for part 'd':
+page 19: no_usable for part 'e':
+page 19: inferred for part 'a': e^{\ln x} = 5
+page 19: inferred for part 'a': e^x = 18
+page 19: inferred for part 'a': e^x = 13
+page 19: inferred for part 'a': x > 10

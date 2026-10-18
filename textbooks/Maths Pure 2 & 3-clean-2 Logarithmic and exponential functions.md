@@ -91,11 +91,9 @@ This is read as: $y = 10^x$ is equivalent to saying that $x = \log_{10} y$ .
 | ..... | ..... | ..... | 0 | 1 | ..... | ..... |
 
 $$\log_{10} 10^x = x \text{ for } x \in \mathbb{R} \qquad 10^{\log_{10} x} = x$$
-
 $$10^{\log_{10} x} = x \text{ for } x > 0$$
 
 $$(\log_{10} 10 = 1)$$
-
 $$\log_{10} 1 = 0$$
 
 ### EXPLORE 2.1
@@ -240,13 +238,8 @@ $$\log_{10} 0.0001$$
 
 $a \rightarrow$ $\log_{10} 100$ $b$ $\log_{10} 0.0001$ $c$ $\log_{10}(10\sqrt{10})$
 
-d
-
-$$\log_{10}(\sqrt[3]{10})$$
-
-$$\sqrt{10} )$$
-
-**e**                      $\log_{10}(100\sqrt{10})$
+**d** $\log_{10}(\sqrt[3]{10})$
+**e** $\log_{10}(100\sqrt{10})$
 
 f
 
@@ -357,15 +350,8 @@ In log form the index is always on its own.
 
 Find the value of:
 
-a
-
-$$\log_2 16$$
-
-b $\log$
-
-b
-
-$$\log_3 \frac{1}{9}$$
+**a** $\log_2 16$
+**b** $\log$
 
 #### Answer
 
@@ -385,35 +371,19 @@ Write $\frac{1}{9}$ as a power of 3, $\frac{1}{9} = 3^{-2}$ .
 
 **1** Convert from exponential form to logarithmic form.
 
-<!-- CHECK: page 8: equation OCR failed, bbox [94, 294, 146, 312]: a 52 = 5 -->
+**a** $b^2 = 25$ <!-- CHECK: page 8: equation for part 'a' inferred from overlapping block -->
+**b** $2^4 = 16$
 
-$$b^2 = 25$$
-
-**b**      $2^4 = 16$
-
-c
-
-$$3^{-5} = \frac{1}{243}$$
-
-$$5 = \frac{1}{243}$$
-
-**d**      $2^{-10} = \frac{1}{1024}$
+**c** $3^{-5} = \frac{1}{243}$
+**d** $2^{-10} = \frac{1}{1024}$
 
 e
 
 $$8^x = 15$$
 
-f
-
-$$x^y = 6$$
-
-$$y = 6$$
-
-**g**      $a^b = c$
-
-$$t^b = c$$
-
-**h**      $x^{5y} = 7$
+**f** $y = 6$
+**g** $a^b = c$
+**h** $x^{5y} = 7$
 
 **2** Convert from logarithmic form to exponential form.
 
@@ -431,19 +401,10 @@ $$\log_8 1 = C$$
 
 **a** $\log_2 8 = 3$ **b** $\log_3 81 = 4$ **c** $\log_8 1 = 0$ **d** $\log_{16} 4 = \frac{1}{2}$
 
-e
-
-$$\log_8 2 = \frac{1}{3}$$
-
-$$g_2 = \frac{1}{2}$$
-
-f      $\log_2 y = 4$      g      $\log_a 1 = 0$      h      $\log_x 5 = y$
-
-$$g - \log_a 1 \equiv 0 \pmod{p}$$
-
-h
-
-$$\log_c 5 = y$$
+**e** $\log_8 2 = \frac{1}{3}$
+**f** $\log_2 y = 4$
+**g** $\log_a 1 = 0$
+**h** $\log_c 5 = y$ <!-- CHECK: page 8: ambiguous equation for part 'h' -->
 
 **3** Solve.
 
@@ -451,39 +412,16 @@ $$\log_c 5 = y$$
 
 **4** Solve.
 
-**a**
-
-$$\log_3(x+5) = 2$$
-
-**b**
-
-$$\log_2(3x - 1) = 5$$
-
-a
-
-$$\log_3(x+5) = 2$$
-
-b $\log_2(3x-1) = 5$      c $\log_p(7-2x) = 0$
+**a** $\log_3(x+5) = 2$
+**b** $\log_2(3x - 1) = 5$
+**c** $\log_p(7-2x) = 0$
 
 **5** Find the value of:
 
-a
-
-$$\log_3 27$$
-
-a
-
-$$\log_3 27$$
-
-b $\log_6 36$      c $\log_4 2$      d $\log_2 10$
-
-c
-
-$$\log_4 2$$
-
-d
-
-$$\log_2 0.125$$
+**a** $\log_3 27$
+**b** $\log_6 36$
+**c** $\log_4 2$
+**d** $\log_2 10$
 
 e
 
@@ -499,35 +437,18 @@ $$\log_7\left(\frac{\sqrt[3]{7}}{7}\right)^2$$
 
 **6** Simplify.
 
-a
-
-$$\log_x x^3$$
-
-b
-
-$$\log_x \sqrt[3]{x}$$
-
-$$x_x \sqrt[3]{x}$$
-
-**c**    $\log_x(x^2\sqrt{x})$      **d**    $\log$
-
-d
-
-$$\log_x \frac{1}{x^4}$$
+**a** $\log_x x^3$
+**b** $\log_x \sqrt[3]{x}$
+**c** $\log_x(x^2\sqrt{x})$
+**d** $\log$
 
 e
 
 $$\log_x\left(\frac{1}{x^3}\right)^2$$
 
-f
-
-$$\log_x\left(\sqrt{x^5}\right)$$
-
-$$g = \log_x\left(\frac{x}{\sqrt{x}}\right)$$
-
-$$x \left( \frac{x}{\sqrt[3]{x}} \right)$$
-
-**h**      $\log_x \left( \frac{x^2}{\sqrt{x}} \right)^3$
+**f** $\log_x\left(\sqrt{x^5}\right)$
+**g** $\log_x\left(\frac{x}{\sqrt{x}}\right)$
+**h** $\log_x \left( \frac{x^2}{\sqrt{x}} \right)^3$
 
 **7** Given that the function $f$ is defined as $f: x \mapsto 1 + \log_2(x - 3)$ for $x \in \mathbb{R}$ , $x > 3$ , find an expression for $f^{-1}(x)$ .
 
@@ -627,19 +548,9 @@ Another useful rule to remember:
 
 Use the laws of logarithms to simplify these expressions.
 
-**a**
-
-$$\log_2 3 + \log_2 5$$
-
-**b**
-
-$$\log_3 8 - \log_3 4$$
-
-**a**
-
-$$\log_2 3 + \log_2 5$$
-
-**b** $\log_3 8 - \log_3 5$      **c** $2 \log_5 2 + \log_5 3$
+**a** $\log_2 3 + \log_2 5$
+**b** $\log_3 8 - \log_3 4$
+**c** $2 \log_5 2 + \log_5 3$
 
 **Answer**
 
@@ -721,19 +632,9 @@ $$\log_a\left(\frac{1}{x}\right) = -\log_a x$$
 
 **1** Write as a single logarithm.
 
-**a**
-
-$$\log_2 7 + \log_2 11$$
-
-**a**
-
-$$\log_2 7 + \log_2 11$$
-
-**b** $\log_6 20 - \log_6 4$      **c** $3\log_3 2 - \log_3 5$
-
-**c**
-
-$$3\log_5 2 - \log_5 4$$
+**a** $\log_2 7 + \log_2 11$
+**b** $\log_6 20 - \log_6 4$
+**c** $3\log_5 2 - \log_5 4$ <!-- CHECK: page 10: ambiguous equation for part 'c' -->
 
 **d** $2 \log_3 8 - 5 \log_3 2$ **e** $1 + 2 \log_2 3$
 
@@ -743,19 +644,9 @@ $$3\log_5 2 - \log_5 4$$
 
 **2** Write as a single logarithm, then simplify your answer.
 
-**a**
-
-$$\log_2 40 - \log_2 5$$
-
-**a**
-
-$$\log_2 40 - \log_2 5$$
-
-**b** $\log_6 20 + \log_6 5$      **c** $\log_2 60 - \log_2 5$
-
-**c**
-
-$$\log_2 60 - \log_2 5$$
+**a** $\log_2 40 - \log_2 5$
+**b** $\log_6 20 + \log_6 5$
+**c** $\log_2 60 - \log_2 5$
 
 **3** Simplify.
 
@@ -897,16 +788,6 @@ $$x = \pm 2$$
 
 $\log_x 2^4 - \log_x 2^2 = 2$ Use the division law.
 
-$$\log_x 2^{4-2} = 2$$
-
-$$\log_x 2^2 = 2$$
-
-$$\log_x 4 = 2$$
-
-$$x^2 = 4$$
-
-$$x = \pm 2$$
-
 Use the power law.
 
 ##### Use the division law.
@@ -929,17 +810,11 @@ Hence, the solution is $x = 2$
 
 **1** Solve.
 
-**a**
-
-$$\log_5 x + \log_5 3 = \log_5 30$$
+**a** $\log_5 x + \log_5 3 = \log_5 30$
 
 **c**
 
 $$\log_2(2-x) + \log_2 9 = 2 \log_2 8$$
-
-**a**
-
-$$\log_3 x + \log_3 3 = \log_3 30$$
 
 **d** $\log_2(2 - x) + \log_2 9 = 2 \log_2 8$ $\log_{10}(x - 4) = 2 \log_{10} 5 + \log_{10} 2$
 1
@@ -962,50 +837,31 @@ $$\log_2(5 - 2x) = 3 + \log_2(x + 1)$$
 
 **3** Solve.
 
-**a**
-
-$$\log_2 x + \log_2(x-1) = \log_2 20$$
+**a** $\log_2 x + \log_2(x-1) = \log_2 20$
+**b** $\log_5(x-2) + \log_5(x-5) = \log_5 43$
 
 **c**
 
 $$2 \log_3 x - \log_3(x - 2) = 2$$
 
-**a**
-
-$$\log_2 x + \log_2(x-1) = \log_2 20$$
-
-**b** $\log_5(x-2) + \log_5(x-5) = \log_5 43$
-
 $x - 2 \log_3 x - \log_3(x-2) = 2$ $d$ $3 + 2 \log_2 x = \log_2(3-10x)$
 
 **4** Solve.
 
-**a**
-
-$$\log_x 40 - \log_x 5 = 1$$
+**a** $\log_x 40 - \log_x 5 = 1$
+**b** $\log_x 36 + \log_x 4 = 2$
 
 **c**
 
 $$\log_x 25 - 2 \log_x 3 = 2$$
-
-a
-
-$$\log_x 40 - \log_x 5 = 1$$
-
-b $\log_x 36 + \log_x 4 = 2$
 
 **d** $2 \log_x 32 = 3 + 2 \log_x 3$
 $\log_x 25 - 2 \log_x 3 = 2$
 
 **5** Solve.
 
-**a**
-
-$$(\log_2 x)^2 - 8 \log_2 x + 15 = 0$$
-
-$$x)^2 - 8 \log_2 x + 15 = 0$$
-
-**b**      $(\log_{10} x)^2 - \log_{10}(x^2) = 0$
+**a** $(\log_2 x)^2 - 8 \log_2 x + 15 = 0$
+**b** $(\log_{10} x)^2 - \log_{10}(x^2) = 0$
 
 **c**
 
@@ -1081,13 +937,8 @@ $$x = \frac{\log 1.5}{\log 3} = 0.369 \dots$$
 
 Solve, giving your answers correct to 3 significant figures.
 
-a
-
-$$5^{2x+1} = 7$$
-
-$$\epsilon^{2x+1} = 7$$
-
-**b**      $3^{2x} = 4^{x+5}$
+**a** $5^{2x+1} = 7$
+**b** $3^{2x} = 4^{x+5}$
 
 **Answer**
 
@@ -1153,45 +1004,21 @@ At IGCSE / O Level you learnt how to solve exponential equations whose terms cou
 
 **1** Solve, giving your answers correct to 3 significant figures.
 
-a
+**a** $5^x = 18$
+**b** $2^x = 35$
 
-$$5^x = 18$$
-
-$$x^* = 18$$
-
-**b**      $2^x = 35$
-
-**c**
-
-$$3^{2x} = 8$$
-
-$$2^x = 8$$
-
-**d**      $2^{x+1} = 25$
+**c** $3^{2x} = 8$
+**d** $2^{x+1} = 25$
 
 <!-- CHECK: page 15: equation OCR failed, bbox [106, 247, 170, 262]: e = − 320 25 x -->
 
-<!-- CHECK: page 15: equation OCR failed, bbox [189, 247, 248, 262]: f = + -->
+**f** $3^x = 2^{x+1}$ <!-- CHECK: page 15: equation for part 'f' inferred from overlapping block -->
+**g** $5^{x+3} = 7^{4-3x}$
+**h** $4^{1-3x} = 3^{x-2}$
 
-$$3^x = 2^{x+1}$$
-
-**g**      $5^{x+3} = 7^{-}$
-
-$$5^{x+3} = 7^{4-3x}$$
-
-**h**      $4^{1-3x} = 3^{x-2}$
-
-i
-
-$$2^x = 2(5^x)$$
-
-$$x^j = 2(5^x)$$
-
-**j**      $4^x = 7(3^x)$
-
-$$|x| = 7(3^x)$$
-
-**k**      $2^{x+1} = 3(5^x)$
+**i** $2^x = 2(5^x)$
+**j** $4^x = 7(3^x)$
+**k** $2^{x+1} = 3(5^x)$
 
 **l**
 
@@ -1203,47 +1030,25 @@ $$5(2^{x-3}) = 4(3^{x+4})$$
 
 **3** Solve, giving your answers correct to 3 significant figures.
 
-a
-
-$$2^{x+2} + 2^x = 2^2$$
-
-$$x^{+2} + 2^x = 2^2$$
-
-**b**      $3^{x+1} = 3^{x-1} + 3^2$
+**a** $2^{x+2} + 2^x = 2^2$
+**b** $3^{x+1} = 3^{x-1} + 3^2$
 
 **c**
 
 $$2^{x+1} + 5(2^{x-1}) = 2^4$$
 
-d
-
-$$5^x + 5^3 = 5^{x+2}$$
-
-$$x + 5^3 = 5^{x+2}$$
-
-**e**      $4^{x-1} = 4^x - 4^3$
-
-$$x^{-1} = 4^x - 4^3$$
+**d** $5^x + 5^3 = 5^{x+2}$
+**e** $4^{x-1} = 4^x - 4^3$
 
 **4** Use the substitution $y = 2^x$ to solve the equation $2^{2x} + 32 = 12(2^x)$ .
 
 **5** Solve, giving your answers correct to 3 significant figures.
 
-**a**
+**a** $5^{2x} - 5(5^x) + 6 = 0$
+**b** $2^{2x} + 5 = 6 \times 2^x$
 
-$$5^{2x} - 5(5^x) + 6 = 0$$
-
-$$2^x - 5(5^x) + 6 = 0$$
-
-**b**      $2^{2x} + 5 = 6 \times 2^x$
-
-**c**
-
-$$3^{2x} = 6 \times 3^x + 7$$
-
-$$2^{2x} = 6 \times 3^x + 7$$
-
-**d**      $4^{2x} + 27 = 12(4^x)$
+**c** $3^{2x} = 6 \times 3^x + 7$
+**d** $4^{2x} + 27 = 12(4^x)$
 
 **6 Use the substitution $u = 2^x$ to solve the equation $2^{2x} - 5(2^{x+1}) + 24 = 0$ .**
 
@@ -1255,43 +1060,22 @@ $\mathbf{a}$ $2^{2x} - 2^{x+1} - 35 = 0$ $\mathbf{b}$ $2^{2x} - 2^{x+1} = 0$
 
 $$3^{2x} - 3^{x+1} = 10$$
 
-**c**
-
-$$2(5^{x+1}) - 5^{2x} = 16$$
-
-$$x^{+1}) - 5^{2x} = 16$$
-
-**d**      $4^{2x+1} = 17(4^x) - 15$
+**c** $2(5^{x+1}) - 5^{2x} = 16$
+**d** $4^{2x+1} = 17(4^x) - 15$
 
 **8** Solve, giving your answers correct to 3 significant figures.
 
-**a**
+**a** $4^x + 2^x - 12 = 0$
+**b** $3(16^x) - 10(4^x) + 3 = 0$
 
-$$4^x + 2^x - 12 = 0$$
-
-$$b = 3(16^x) - 10(4^x) + 3 = 0$$
-
-**c**
-
-$$4^x + 15 = 4(2^{x+1})$$
-
-$$4^x + 15 = 4(2^{x+1})$$
-
-**d**      $2(9^x) = 3^{x+1} + 27$
+**c** $4^x + 15 = 4(2^{x+1})$
+**d** $2(9^x) = 3^{x+1} + 27$
 
 **9** For each of the following equations find the value of $\frac{x}{y}$ correct to 3 significant figures.
 
-a
-
-$$3^x = 7^y$$
-
-$$x = 7^y$$
-
-**b**      $7^x = (2.7)^y$      **c**      $4^{2x} = 3^y$
-
-**c**
-
-$$4^{2x} = 3^{5y}$$
+**a** $3^x = 7^y$
+**b** $7^x = (2.7)^y$
+**c** $4^{2x} = 3^y$
 
 **10** Solve the equation $x^{2.5} = 20x^{1.25}$ , giving your answers in exact form.
 
@@ -1301,21 +1085,14 @@ $$4^{2x} = 3^{5y}$$
 
 $|x - 8| = 2$ **b** $|2(3^x) - 4| = 8$
 
-<!-- CHECK: page 15: equation OCR failed, bbox [106, 711, 186, 725]:  -->
-
-<!-- CHECK: page 15: equation OCR failed, bbox [108, 711, 401, 727]: c 32 −= 52 xx d 34 += 39 − xx -->
+<!-- CHECK: page 15: no usable equation for part 'c' -->
+<!-- CHECK: page 15: no usable equation for part 'd' -->
 
 **e** $|5(2^x) + 3| = |5(2^x) - 10|$
 
 $x^2 + 3$ $=$ $5(2^x) - 10$ $f$ $|2^{x^2} + 1|$ $=$ $|2^x + 12|$
 
-**g**
-
-$$3^{2^{|x|}} = 6 \binom{3^{|x|}}{1} + 16$$
-
-$$|2^{|x|}| = 6 \left( 3^{|x|} \right) + 16$$
-
- $h \quad |4^{|x|}| = 5 \left( 2^{|x|} \right) + 14$
+**g** $3^{2^{|x|}} = 6 \binom{3^{|x|}}{1} + 16$
 
 When $y = -5$
 
@@ -1327,13 +1104,7 @@ Hence, the solution is $x = 0.369$ to 3 significant figures.
 
 **12** Given that $2^{4x+1} \times 3^{2-x} = 8^x \times 3^{5-2x}$ , find the value of:
 
-a
-
-$$6^x$$
-
-$$x^b$$
-
- $x^b$
+**a** $6^x$
 
 **13** Solve the equation $8(8^{x-1} - 1) = 7(4^x - 2^{x+1})$ .
 
@@ -1457,71 +1228,39 @@ The number $e$ is a very important number in Mathematics as it has very special 
 
 **1** Use a calculator to evaluate correct to 3 significant figures:
 
-<!-- CHECK: page 19: equation OCR failed, bbox [105, 125, 132, 141]: a e -->
-
-$$e^{-3}$$
-
-b      $e^{2.7}$
-
-$$c = e^{0.8}$$
-
-$$d = 0.8$$
-
-e-2
+**a** $e^{-3}$ <!-- CHECK: page 19: equation for part 'a' inferred from overlapping block -->
+**b** $e^{2.7}$
+**c** $e^{0.8}$
+**d** $0.8$
+<!-- CHECK: page 19: no usable equation for part 'e' -->
 
 **2** Use a calculator to evaluate correct to 3 significant figures:
 
-a
-
-$$\ln 3$$
-
-b
-
-$$\ln 1.4$$
-
-c
-
-$$\ln 0.9$$
-
-<!-- CHECK: page 19: equation OCR failed, bbox [108, 167, 545, 182]: a ln3 b ln1.4 c ln 0.9 d ln 0.15 -->
+**a** $\ln 3$
+**b** $\ln 1.4$
+**c** $\ln 0.9$
+<!-- CHECK: page 19: no usable equation for part 'd' -->
 
 **3** Without using a calculator, find the value of:
 
-<!-- CHECK: page 19: equation OCR failed, bbox [105, 205, 140, 226]: a e -->
+**a** $e^{-\ln 2} = \frac{1}{2} \ln 9$ <!-- CHECK: page 19: equation for part 'a' inferred from overlapping block -->
 
-$$e^{-\ln 2} = \frac{1}{2} \ln 9$$
-
-**c**
-
-$$5e^{\ln 6}$$
-
-**d**      **e**
-
-<!-- CHECK: page 19: equation OCR failed, bbox [500, 205, 538, 223]: ln 1 2 − -->
+**c** $5e^{\ln 6}$
+<!-- CHECK: page 19: no usable equation for part 'd' -->
+<!-- CHECK: page 19: no usable equation for part 'e' -->
 
 **4** Solve.
 
-<!-- CHECK: page 19: equation OCR failed, bbox [105, 250, 159, 267]: a e5 = -->
+**a** $e^{\ln x} = 5$ <!-- CHECK: page 19: equation for part 'a' inferred from overlapping block -->
+**b** $\ln e^x = 15$
 
-$$e^{\ln x} = 5$$
-
-**b**      $\ln e^x = 15$
-
-**c**
-
-$$e^{3 \ln x} = 64$$
-
-$$e^{3 \ln x} = 64$$
-
-d      $e^{-\ln x} = 3$
+**c** $e^{3 \ln x} = 64$
+**d** $e^{-\ln x} = 3$
 
 **5** Solve, giving your answers correct to 3 significant figures.
 
-<!-- CHECK: page 19: equation OCR failed, bbox [105, 291, 158, 307]: a e1 = 8 -->
-
-$$e^x = 18$$
-
-**b**      $e^{2x} = 25$
+**a** $e^x = 18$ <!-- CHECK: page 19: equation for part 'a' inferred from overlapping block -->
+**b** $e^{2x} = 25$
 
 <!-- CHECK: page 19: equation OCR failed, bbox [367, 291, 421, 307]: c = + -->
 
@@ -1529,11 +1268,8 @@ $e^{x+1} = 8$ **d** $e^{2x-3} = 16$
 
 **6** Solve, giving your answers in terms of natural logarithms.
 
-<!-- CHECK: page 19: equation OCR failed, bbox [105, 331, 158, 348]: a e1 = 3 -->
-
-$$e^x = 13$$
-
-**b**      $e^{3x} = 7$
+**a** $e^x = 13$ <!-- CHECK: page 19: equation for part 'a' inferred from overlapping block -->
+**b** $e^{3x} = 7$
 
 **c**
 
@@ -1543,15 +1279,9 @@ $e^{2x-1} = 6$ $d$ $e^{\frac{1}{2}x+3} = 4$
 
 **7** Solve, giving your answers in terms of natural logarithms.
 
-<!-- CHECK: page 19: equation OCR failed, bbox [105, 371, 158, 387]: a e10 -->
-
-$$x > 10$$
-
-**b**      $e^{5x-2} \leq 35$      **c**      $5x > 10$
-
-**c**
-
-$$5 \times e^{2x+3} < 1$$
+**a** $x > 10$ <!-- CHECK: page 19: equation for part 'a' inferred from overlapping block -->
+**b** $e^{5x-2} \leq 35$
+**c** $5x > 10$
 
 **8** Solve, giving your answers correct to 3 significant figures.
 
@@ -1571,33 +1301,13 @@ $$\ln(x - 2) = 6$$
 
 **9** Solve, giving your answers correct to 3 significant figures.
 
-**a**
+**a** $\ln(3 - x^2) = 2 \ln x$
+**b** $2\ln(x+2) - \ln x = \ln(2x-1)$
 
-$$\ln(3 - x^2) = 2 \ln x$$
+**c** $2 \ln(x+1) = \ln(2x+3)$
+**d** $\ln(2x+1) = 2\ln x + \ln 5$
 
-a
-
-$$\ln(3-x^2) = 2\ln x$$
-
-b $2\ln(x+2) - \ln x = \ln(2x-1)$
-
-**c**
-
-$$2 \ln(x+1) = \ln(2x+3)$$
-
-c
-
-$$2\ln(x+1) = \ln(2x+3)$$
-
-d $\ln(2x+1) = 2\ln x + \ln 5$
-
-**e**
-
-$$\ln(x + 2) - \ln x = 1$$
-
-e
-
-$$\ln(x+2) - \ln x = 1$$
+**e** $\ln(x + 2) - \ln x = 1$
 
 **10** Express *y* in terms of *x* for each of these equations.
 
@@ -1813,29 +1523,15 @@ $$y = e^{ax+b}$$
 
 $ax+b$ $\mathbf{b}$ $y = 10^{ax-b}$ $\mathbf{c}$ $y =$
 
-**c**
-
-$$y = a(x^{-b})$$
-
-$$b^{-b}$$
-
-**d**      $y = a(b^x)$
+**c** $y = a(x^{-b})$
+**d** $y = a(b^x)$
 
 **E** e
 
 $$a = e^{x^2+by}$$
 
-**f**
-
-$$x^a y^b = 8$$
-
-$$a^a y^b = 8$$
-
-**g**      $xa^y = b$
-
-$$y = b$$
-
- $h = a(e^{-bx})$
+**f** $a^a y^b = 8$
+**g** $xa^y = b$
 
 **2** The variables $x$ and $y$ satisfy the equation $y = a \times x^n$ , where $a$ and $n$ are constants. The graph of $\ln y$ against $\ln x$ is a straight line passing through the points (0.31, 4.02) and (1.83, 3.22) as shown in the diagram. Find the value of $a$ and the value of $n$ correct to 2 significant figures.
 

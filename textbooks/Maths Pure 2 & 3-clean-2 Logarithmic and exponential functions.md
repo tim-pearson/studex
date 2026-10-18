@@ -9,13 +9,13 @@
 
 # Logarithmic and exponential functions
 
-# What is a logarithm?
+## What is a logarithm?
 
 At IGCSE / O Level we learnt how to solve some simple exponential equations. For example, $32^x = 2$ can be solved by first writing 32 as a power of 2. In this chapter we will learn how to solve more difficult exponential equations such as $a^x = b$ where there is no obvious way of writing the numbers $a$ and $b$ in index form with the same base number. In order to be able to do this we will first learn about a new type of function called the logarithmic function. A logarithmic function is the inverse of an exponential function.
 
 At IGCSE / O Level we learnt about exponential growth and decay and its applications to numerous real-life problems such as investments and population sizes. Logarithmic functions also have real-life applications such as the amount of energy released during an earthquake (the Richter scale). One of the most fascinating occurrences of logarithms in nature is that of the logarithmic spiral that can be observed in a nautilus shell. We also see logarithmic spiral shapes in spiral galaxies, and in plants such as sunflowers.
 
-# 2.1 Logarithms to base 10
+## 2.1 Logarithms to base 10
 
 Consider the exponential function $f(x) = 10^x$ .
 
@@ -25,7 +25,7 @@ The graph of $y = 10^x$ could also be used to give a more accurate value for $x$
 
 ![](images/page_1_Figure_10.jpeg)
 
-#### PREREQUISITE KNOWLEDGE
+### PREREQUISITE KNOWLEDGE
 
 | Where it comes from | What you should be able to do | Check your skills |
 | --- | --- | --- |
@@ -34,11 +34,11 @@ The graph of $y = 10^x$ could also be used to give a more accurate value for $x$
 
 Explore the *Exponentials and logarithms* station on the Underground Mathematics website.
 
-# WEB LINK
+### WEB LINK
 
 You will encounter logarithmic functions again when studying calculus in Chapters 4, 5 and 8.
 
-#### FAST FORWARD
+### FAST FORWARD
 
 From the graph, $x \approx 0.78$ .
 
@@ -48,7 +48,7 @@ If $10^x = 6$ then $x = \log_{10} 6$ .
 
 $\log_{10} 6$ is read as ‘ $\log 6$ to base 10’.
 
-### log is short for **logarithm**.
+#### log is short for **logarithm**.
 
 On a calculator, for logs to the base 10, we use the $(\log)$ or $(\lg)$ key.
 
@@ -60,9 +60,9 @@ $x = 0.778$ to 3 significant figures.
 
 log10 6 can also be written as log 6 or lg 6.
 
-# TIP
+### TIP
 
-### The rule for base 10 is:
+#### The rule for base 10 is:
 
 If $y = 10^x$ then $x = \log_{10} y$
 
@@ -78,7 +78,7 @@ We say that $y = 10^x \Leftrightarrow x = \log_{10} y$ .
 
 This is read as: $y = 10^x$ is equivalent to saying that $x = \log_{10} y$ .
 
-# KEY POINT 2.1
+### KEY POINT 2.1
 
 **1** Discuss with your classmates why each of these two statements is true.
 
@@ -98,7 +98,7 @@ $$(\log_{10} 10 = 1)$$
 
 $$\log_{10} 1 = 0$$
 
-#### EXPLORE 2.1
+### EXPLORE 2.1
 
 ![](images/page_2_Figure_21.jpeg)
 
@@ -107,7 +107,7 @@ $$\log_{10} 1 = 0$$
 
 #### Answer
 
-#### a Method 1
+##### a Method 1
 
 $$10^x = 58$$
 
@@ -119,7 +119,7 @@ $$10^x = 58$$
 
 $$10^x = 58 \Leftrightarrow x = \log_{10} 58$$
 
-#### Method 2
+##### Method 2
 
 **b** $10^x = 58$
 $x = \log_{10} 58$
@@ -135,22 +135,22 @@ Take logs to base 10 of both sides.
 
 Use $\log_{10} 10^x = x$ .
 
-#### WORKED EXAMPLE 2.1
+### WORKED EXAMPLE 2.1
 
 In log form the index is always on its own.
 
-#### TIP
+### TIP
 
 In log form the index is always on its own and the base goes at the base of the logarithm.
 
-#### TIP
+### TIP
 
 **a** Convert $\log_{10} x = 3.5$ to exponential form.
 **b** Solve $\log_{10} x = 3.5$ giving your answer correct to 3 significant figures.
 
 #### Answer
 
-#### a Method 1
+##### a Method 1
 
 $$\log_{10} x = 3.5$$
 
@@ -158,7 +158,7 @@ $$\log_{10} x = 3.5$$
 
 **Step 2:** Start to write in exponential form $\longrightarrow 10^{3.5} = ?$
 
-#### EXERCISE 2A
+### EXERCISE 2A
 
 **1** Convert from exponential form to logarithmic form.
 **a** $10^2 = 100$ b $10^x = 200$ c $10^x = 0.05$
@@ -173,7 +173,7 @@ $$\log_{10} x = 3.5$$
 
 $$\log_{10} x = 3.5 \iff x = 10^{3.5}$$
 
-#### Method 2
+##### Method 2
 
 **b**
 
@@ -203,7 +203,7 @@ $$\log_{10} 0.0001$$
 
 **a** $\log_{10} 10,000$ **b** $\log_{10} 0.0001$ **c** $\log_{10} 1000\sqrt{10}$
 
-### Answer
+#### Answer
 
 **a** $\log_{10} 10\,000 = \log_{10} 10^4$
 $= 4$
@@ -256,7 +256,7 @@ $$\log_{10}\left(\frac{100}{\sqrt{1000}}\right)$$
 
 **7** Given that $p$ and $q$ are positive and that $4(\log_{10} p)^2 + 2(\log_{10} q)^2 = 9$ , find the greatest possible value of $p$ .
 
-# 2.2 Logarithms to base a
+## 2.2 Logarithms to base a
 
 In the last section you learnt about logarithms to the base of 10.
 
@@ -275,17 +275,17 @@ $\log_a a = 1$ $\log_a 1 = 0$
 
 $$\log_a a^x = x \qquad a^{\log_a x} = x$$
 
-#### KEY POINT 2.2
+### KEY POINT 2.2
 
 Try the *See the power* resource on the Underground Mathematics website.
 
-#### WEB LINK
+### WEB LINK
 
 Convert $5^3 = 125$ to logarithmic form.
 
-### Answer
+#### Answer
 
-### Method 1
+##### Method 1
 
 $$5^3 = 125$$
 
@@ -297,7 +297,7 @@ $$5^3 = 125$$
 
 $$5^3 = 125 \Leftrightarrow 3 = \log_5 125$$
 
-### Method 2
+##### Method 2
 
 $$5^3 = 125$$
 
@@ -309,17 +309,17 @@ $$3 = \log_5 125$$
 
 ..... Use $\log_5 5^x = x$ .
 
-#### WORKED EXAMPLE 2.4
+### WORKED EXAMPLE 2.4
 
 In log form the index is always on its own and the base goes at the base of the logarithm.
 
-#### TIP
+### TIP
 
 Convert $\log_3 x = 2.5$ to exponential form.
 
-### Answer
+#### Answer
 
-#### Method 1
+##### Method 1
 
 $$\log_3 x = 2.5$$
 
@@ -331,13 +331,13 @@ $\longrightarrow$ base = 3, index = 2.5
 
 $\longrightarrow 3^{2.5} = ?$
 
-### Step 3: Complete the exponential form
+##### Step 3: Complete the exponential form
 
 $$\log_3 x = 2.5 \iff 3^{2.5} = x$$
 
 $\longrightarrow 3^{2.5} = x$
 
-#### Method 2
+##### Method 2
 
 $$\log_3 x = 2.5$$
 
@@ -345,15 +345,15 @@ $$x = 3^{2.5}$$
 
 $$3^{\log_3 x} = 3^{2.5}$$
 
-### Write each side as an exponent of 3.
+##### Write each side as an exponent of 3.
 
 Use $3^{\log_3 x} = x$
 
-#### WORKED EXAMPLE 2.5
+### WORKED EXAMPLE 2.5
 
 In log form the index is always on its own.
 
-# TIP
+### TIP
 
 Find the value of:
 
@@ -367,7 +367,7 @@ b
 
 $$\log_3 \frac{1}{9}$$
 
-### Answer
+#### Answer
 
 a)
 
@@ -381,7 +381,7 @@ $$\begin{aligned} \text{b} \quad \log_3 \frac{1}{9} &= \log_3 3^{-2} \\ &= -2 \e
 
 Write $\frac{1}{9}$ as a power of 3, $\frac{1}{9} = 3^{-2}$ .
 
-#### EXERCISE 2B
+### EXERCISE 2B
 
 **1** Convert from exponential form to logarithmic form.
 
@@ -551,7 +551,7 @@ $$\log_x\left(\frac{\sqrt[3]{x}}{x}\right) = \log_x\left(x^{-\frac{2}{3}}\right)
 
 Write 3 *x* *x* as a power of *x*.
 
-#### WORKED EXAMPLE 2.7
+### WORKED EXAMPLE 2.7
 
 a
 
@@ -573,11 +573,11 @@ Without using a calculator, arrange these logarithms in ascending order.
 
 Add some more logarithms of your own in the correct position in your ordered list.
 
-# 2.3 The laws of logarithms
+## 2.3 The laws of logarithms
 
 If $x$ and $y$ are both positive and $a > 0$ and $a \neq 1$ , then the following **laws of logarithms** can be used.
 
-#### Proofs:
+### Proofs:
 
 #### Multiplication law Division law Power law
 
@@ -602,14 +602,14 @@ Use a calculator to see who is correct and check that their rule works for other
 
 Use a calculator to check that you have predicted correctly and check for other pairs of numbers.
 
-#### EXPLORE 2.2
+### EXPLORE 2.2
 
 |  |  |  |  |
 | --- | --- | --- | --- |
 | **Multiplication law** | **Division law** | **Power law** |  |
 | $\log_a(xy) = \log_a x + \log_a y$ | $\log_a\left(\frac{x}{y}\right) = \log_a x - \log_a y$ | $\log_a(x)^m = m \log_a x$ |  |
 
-# KEY POINT 2.3
+### KEY POINT 2.3
 
 **PS** log93
 
@@ -669,7 +669,7 @@ $$= \log_5(4 \times 3)$$
 
 $$= \log_5 12$$
 
-#### WORKED EXAMPLE 2.8
+### WORKED EXAMPLE 2.8
 
 Given that $\log_4 p = x$ and $\log_4 q = y$ , express in terms of $x$ and/or $y$
 
@@ -711,13 +711,13 @@ $$= \log_4 4^3 - \log_4 p$$
 
 $$= 3 - x$$
 
-#### WORKED EXAMPLE 2.9
+### WORKED EXAMPLE 2.9
 
 $$\log_a\left(\frac{1}{x}\right) = -\log_a x$$
 
-# KEY POINT 2.4
+### KEY POINT 2.4
 
-#### EXERCISE 2C
+### EXERCISE 2C
 
 **1** Write as a single logarithm.
 
@@ -821,9 +821,9 @@ Find the value of $x$ , the value of $y$ and the value of $z$ .
 
 Try the *Summing to one* and the *Factorial fragments* resources on the Underground Mathematics website.
 
-#### WEB LINK
+### WEB LINK
 
-# 2.4 Solving logarithmic equations
+## 2.4 Solving logarithmic equations
 
 <!-- CHECK: page 11: OCR returned nothing for region bbox [61, 697, 450, 724] -->
 
@@ -837,7 +837,7 @@ Solve:
 
 $$4\log_x 2 - \log_x 4 = 2$$
 
-### Answer
+#### Answer
 
 **a**
 
@@ -853,11 +853,11 @@ $$x^2 + 2x - 15 = 0$$
 
 $$(x - 3)(x + 5) = 0$$
 
-### Use the power law.
+##### Use the power law.
 
-## Expand brackets.
+##### Expand brackets.
 
-### Use equality of logarithms.
+##### Use equality of logarithms.
 
 $$x = 3$$
 
@@ -909,7 +909,7 @@ $$x = \pm 2$$
 
 Use the power law.
 
-### Use the division law.
+##### Use the division law.
 
 Since logarithms only exist for positive bases, $x = -2$ is not a solution.
 
@@ -923,9 +923,9 @@ So $x = 2$ satisfies the original equation.
 
 Hence, the solution is $x = 2$
 
-### Convert to exponential form.
+##### Convert to exponential form.
 
-#### EXERCISE 2D
+### EXERCISE 2D
 
 **1** Solve.
 
@@ -1077,7 +1077,7 @@ $$x \log 3 = \log 1.5$$
 
 $$x = \frac{\log 1.5}{\log 3} = 0.369 \dots$$
 
-#### WORKED EXAMPLE 2.12
+### WORKED EXAMPLE 2.12
 
 Solve, giving your answers correct to 3 significant figures.
 
@@ -1099,7 +1099,6 @@ $$\log 5^{2x+1} = \log 7$$
 
 $$(2x + 1) \log 5 = \log 7$$
 
-
 $$2x \log 5 + \log 5 = \log 7$$
 
 $$x = \frac{\log 7 - \log 5}{2 \log 5}$$
@@ -1115,7 +1114,6 @@ b
 $$3^{2x} = 4^{x+5}$$
 
 $$\log 3^{2x} = \log 4^{x+5}$$
-
 
 $$2x \log 3 = (x + 5) \log 4$$
 
@@ -1145,13 +1143,13 @@ Collect *x* terms on one side.
 
 Divide both sides by $(2 \log 3 - \log 4)$ .
 
-#### WORKED EXAMPLE 2.11
+### WORKED EXAMPLE 2.11
 
-# 2.5 Solving exponential equations
+## 2.5 Solving exponential equations
 
 At IGCSE / O Level you learnt how to solve exponential equations whose terms could be converted to the same base. In this section you will learn how to solve exponential equations whose terms cannot be converted to the same base.
 
-#### EXERCISE 2E
+### EXERCISE 2E
 
 **1** Solve, giving your answers correct to 3 significant figures.
 
@@ -1339,7 +1337,7 @@ $$x^b$$
 
 **13** Solve the equation $8(8^{x-1} - 1) = 7(4^x - 2^{x+1})$ .
 
-# 2.6 Solving exponential inequalities
+## 2.6 Solving exponential inequalities
 
 To solve inequalities such as $2^x > 3$ we take the logarithm of both sides of the inequality. We can take logarithms to any base but care must be taken with the inequality symbol when doing so.
 
@@ -1354,7 +1352,7 @@ It is also important to remember that if we divide both sides of an inequality b
 
 Try the *To log or not to log?* resource on the Underground Mathematics website.
 
-#### WEB LINK
+### WEB LINK
 
 Solve the inequality $0.6^x < 0.7$ , giving your answer in terms of base 10 logarithms.
 
@@ -1368,14 +1366,13 @@ $$x \log 0.6 < \log 0.7$$
 
 $$x > \frac{\log 0.7}{\log 0.6}$$
 
-
 $$x > 0.698$$
 
 (correct to 3 significant figures)
 
 Take logs to base 10 of both sides, inequality symbol is unchanged.
 
-#### WORKED EXAMPLE 2.13
+### WORKED EXAMPLE 2.13
 
 Divide both sides by $\log_{10} 0.6$ .
 
@@ -1383,7 +1380,7 @@ Use the power rule for logs.
 
 log 0.6 is negative so the inequality symbol is reversed.
 
-## WORKED EXAMPLE 2.14
+### WORKED EXAMPLE 2.14
 
 Solve the inequality $4 \times 3^{2x-1} > 5$ , giving your answer in terms of base 10 logarithms.
 
@@ -1398,7 +1395,7 @@ Solve the inequality $4 \times 3^{2x-1} > 5$ , giving your answer in terms of ba
 | $x > \frac{\log \frac{5}{4} + \log 3}{2 \log 3}$ | Simplify. |
 | $x > \frac{\log \frac{15}{4}}{\log 9}$ |  |
 
-## EXERCISE 2F
+### EXERCISE 2F
 
 **1** Solve the inequalities, giving your answer in terms of base 10 logarithms.
 
@@ -1416,7 +1413,7 @@ a $8^{5-x} < 10$      b $3^{2x+5} > 20$      c $2 \times 5^{2x+1} \leq 3
 
 You are given that $\log_{10} 4 = 0.60206$ correct to 5 decimal places and that $10^{0.206} < 2$ .
 
-# 2.7 Natural logarithms
+## 2.7 Natural logarithms
 
 There is another type of logarithm to a special base called e.
 
@@ -1440,23 +1437,23 @@ We say that $y = e^x \Leftrightarrow x = \log_e y$ .
 
 If $y = e^x$ then $x = \ln y$
 
-# KEY POINT 2.5
+### KEY POINT 2.5
 
 The Scottish mathematician John Napier (1550–1617) is credited with the discovery of logarithms. His original studies involved logarithms to the base of $\frac{1}{e}$ .
 
-# DID YOU KNOW?
+### DID YOU KNOW?
 
 The number e is also known as Euler's number. It is named after Leonhard Euler (1707–1783), who devised the following formula for calculating the value of e:
 
 $$e = 1 + \frac{1}{1} + \frac{1}{1 \times 2} + \frac{1}{1 \times 2 \times 3} + \frac{1}{1 \times 2 \times 3 \times 4} + \frac{1}{1 \times 2 \times 3 \times 4 \times 5} + \dots$$
 
-# DID YOU KNOW?
+### DID YOU KNOW?
 
 The number $e$ is a very important number in Mathematics as it has very special properties. You will learn about these special properties in Chapters 4 and 5.
 
-#### FAST FORWARD
+### FAST FORWARD
 
-#### EXERCISE 2G
+### EXERCISE 2G
 
 **1** Use a calculator to evaluate correct to 3 significant figures:
 
@@ -1644,7 +1641,7 @@ $$e^{2x+y} = 8e^{x+6}y$$
 
 **PS**
 
-# 2.8 Transforming a relationship to linear form
+## 2.8 Transforming a relationship to linear form
 
 When we collect experimental data for two variables we often wish to find a mathematical relationship connecting the variables. When the data plots on a graph lie on a straight line the relationship can be easily found using the equation $y = mx + c$ , where $m$ is the gradient and $c$ is the $y$ -intercept. It is more common, however, for the data plots to lie on a curve.
 
@@ -1659,11 +1656,11 @@ It is important to note:
 - The variables $X$ and $Y$ in $Y = mX + c$ must contain only the original variables $x$ and $y$ . (They must **not** contain the unknown constants $a$ and $b$ .)
 - The constants $m$ and $c$ must contain only the original unknown constants $a$ and $b$ . (They must **not** contain the variables $x$ and $y$ .)
 
-#### WORKED EXAMPLE 2.15
+### WORKED EXAMPLE 2.15
 
 Convert $y = ae^{bx}$ , where $a$ and $b$ are constants, into the form $Y = mX + c$ .
 
-### Answer
+#### Answer
 
 $$y = ae^{bx}$$
 
@@ -1699,7 +1696,7 @@ The variables $x$ and $y$ satisfy the equation $y = a(e^{-bx^2})$ , where $a$ an
 
 $$y = a \times e^{-bx^2}$$
 
-## Taking natural logarithms of both sides gives:
+##### Taking natural logarithms of both sides gives:
 
 $$\ln y = \ln(a \times e^{-bx^2})$$
 
@@ -1733,7 +1730,7 @@ Hence $a = 3.04$ and $b = 0.50$ to 2 decimal places.
 
 When one variable on a graph is a log but the other variable is not a log, it is called a semi-log graph. When both variables on a graph are logs, it is called a log-log graph.
 
-# DID YOU KNOW?
+### DID YOU KNOW?
 
 The table shows experimental values of the variables $x$ and $y$ .
 
@@ -1753,7 +1750,7 @@ $$\ln y = \ln k + \ln x^n$$
 
 $$\ln y = n \ln x + \ln k$$
 
-## Take natural logarithms of both sides.
+##### Take natural logarithms of both sides.
 
 |  |  |  |  |  |
 | --- | --- | --- | --- | --- |
@@ -1806,7 +1803,7 @@ to 2 significant figures.
 
 ![](images/page_21_Figure_7.jpeg)
 
-#### EXERCISE 2H
+### EXERCISE 2H
 
 **1** Given that $a$ and $b$ are constants, use logarithms to change each of these non-linear equations into the form $Y = mX + c$ . State what the variables $X$ and $Y$ and the constants $m$ and $c$ represent. (Note: there might be more than one method to do this.)
 
@@ -1890,9 +1887,9 @@ c The half-life of a radioactive substance is the time it takes to decay to half
 **ii** the time taken for the temperature to reach 28 °C
 **iii** the room temperature.
 
-# Checklist of learning and understanding
+## Checklist of learning and understanding
 
-#### The rules of logarithms
+### The rules of logarithms
 
 - If $y = a^x$ then $x = \log_a y$ .
 - $\log_a a = 1$ , $\log_a 1 = 0$ , $\log_a a^x = x$ , $a^{\log_a x} = x$
@@ -1901,7 +1898,7 @@ c The half-life of a radioactive substance is the time it takes to decay to half
 - Power rule: $\log_a(x)^m = m \log_a x$
 - Special case of power rule: $\log_a\left(\frac{1}{x}\right) = -\log_a x$
 
-#### Natural logarithms
+### Natural logarithms
 
 - Logarithms to the base of $e$ are called natural logarithms.
 - e ≈ 2.718
@@ -1967,7 +1964,7 @@ Show that $f(-2) = 0$ and factorise $f(x)$ completely. **[4 marks]**
 
 <!-- CHECK: page 26: OCR returned nothing for region bbox [256, 730, 574, 745] -->
 
-#### END-OF-CHAPTER REVIEW EXERCISE 2
+## END-OF-CHAPTER REVIEW EXERCISE 2
 
 **11** Solve the equation $|4 - 2^x| = 10$ , giving your answer correct to 3 significant figures. **[3 marks]**
 

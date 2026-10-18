@@ -32,6 +32,111 @@ AXIS_VARS = set("xysnmt")
 NUM_LIKE_RE = re.compile(r"^[\d.,\-/% ]+$")
 SKIP = {"PageHeader", "PageFooter"}
 
+# --------------------------------------------------------------------------
+# Header-level normalisation. Marker assigns heading levels inconsistently
+# (TIP / WEB LINK / KEY POINT come out as both h1 and h4, EXERCISE as h2/h4),
+# so we re-classify every SectionHeader by content against a stable scheme for
+# Cambridge-style textbooks:
+#   H1  chapter + chapter name
+#   H2  numbered sections (2.1 ...), 'What is a logarithm?', checklist & review
+#   H3  boxed callouts: KEY POINT, WORKED EXAMPLE, EXERCISE, TIP, WEB LINK,
+#       DID YOU KNOW, FAST FORWARD, EXPLORE, PREREQUISITE KNOWLEDGE, Proofs,
+#       plus 'checklist' subsections
+#   H4  box internals: Answer, 'Multiplication law Division law ...'
+#   H5  method/steps: 'a Method 1', 'Method 2', 'Step 3:', 'Use the power law.'
+# --------------------------------------------------------------------------
+HEADER_H2_RE = re.compile(
+    r"^(?:"
+    r"\d+\.\d+ |"                      # 2.1 Logarithms to base 10
+    r"what is a logarithm|"            # chapter intro section
+    r"checklist of learning and understanding|"
+    r"end[- ]?of[- ]?chapter[- ]?review"
+    r")",
+    re.I,
+)
+HEADER_H3_RE = re.compile(
+    r"^(?:"
+    r"key point|"
+    r"worked example|"
+    r"exercise|"
+    r"explore|"
+    r"prerequisite knowledge|"
+    r"web link|"
+    r"fast forward|"
+    r"tip\b|"
+    r"did you know|"
+    r"proofs|"
+    r"the rules of logarithms|"
+    r"natural logarithms|"
+    r"transforming a relationship"
+    r")",
+    re.I,
+)
+HEADER_H4_RE = re.compile(
+    r"^(?:"
+    r"answer\b|"
+    r"multiplication law division law"
+    r")",
+    re.I,
+)
+HEADER_H5_RE = re.compile(
+    r"^(?:"
+    r"a method\b|"
+    r"method\s+\d|"
+    r"step\s+\d|"
+    r"use (?:the )?(?:power|division|equality|index|natural|index laws|rules)|"
+    r"use equality of logarithms|"
+    r"expand brackets|"
+    r"collect |"
+    r"divide both sides|"
+    r"rearrange|"
+    r"tak(?:e|ing) (?:natural |common )?log(?:arithms)?(?:s)? of|"
+    r"write each side|"
+    r"convert to exponential form|"
+    r"factoris|"
+    r"hence the graph"
+    r")",
+    re.I,
+)
+_last_header = ""
+
+
+def classify_header(text: str) -> int:
+    """Map a SectionHeader's text to a stable heading level (1-5)."""
+    global _last_header
+    t = text.strip()
+    ts = re.sub(r"[*_`]", "", t).lower().strip()
+
+    if re.match(r"^chapter\s+\d+", ts):
+        _last_header = "chapter"
+        return 1
+    if _last_header == "chapter":  # chapter name right after 'Chapter N'
+        _last_header = "name"
+        return 1
+    _last_header = "other"
+
+    matches = HEADER_H5_RE.match(ts)
+    if matches:
+        return 5
+    if HEADER_H4_RE.match(ts):
+        return 4
+    if HEADER_H3_RE.match(ts):
+        return 3
+    if HEADER_H2_RE.match(ts):
+        return 2
+    return 4  # unrecognised note/callout
+
+
+RE_HEADING_LINE = re.compile(r"^(#+)\s+(.+?)\s*$", re.M)
+
+
+def relevel_headings(text: str) -> str:
+    """Re-classify any markdown heading lines that markdownify produced from
+    inner <h1>-<h6> tags (e.g. '<h3>Answer</h3>' inside a Text block)."""
+    return RE_HEADING_LINE.sub(
+        lambda m: "#" * classify_header(m.group(2)) + " " + m.group(2), text
+    )
+
 flags = []
 
 
@@ -317,11 +422,10 @@ def render(block, page, out, img_dir, img_rel):
 
     if bt == "SectionHeader":
         soup = BeautifulSoup(html, "html.parser")
-        tag = soup.find(re.compile(r"h[1-6]"))
-        level = int(tag.name[1]) if tag else 2
         text = soup.get_text(" ", strip=True)
-        if text:
-            out.append("#" * level + " " + text)
+        if not text:
+            return
+        out.append("#" * classify_header(text) + " " + text)
         return
 
     # Any block that contains a table is rendered through the table pipeline
@@ -370,9 +474,16 @@ def render(block, page, out, img_dir, img_rel):
         out.append(f"<!-- CHECK: {msg} -->")
         return
 
-    text = block_md(html) if bt in ("Text", "ListItem") else inline_md(html)
+    if bt == "Equation":
+        # marker sometimes wraps an equation in <h2>; keep it as an equation
+        soup = BeautifulSoup(html, "html.parser")
+        for h in soup.find_all(re.compile(r"h[1-6]")):
+            h.unwrap()
+        text = inline_md(str(soup))
+    else:
+        text = block_md(html) if bt in ("Text", "ListItem") else inline_md(html)
     if text:
-        out.append(fmt_marks(text))
+        out.append(fmt_marks(relevel_headings(text)))
 
 
 # --------------------------------------------------------------------------

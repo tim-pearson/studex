@@ -9,3 +9,20 @@ node_modules/
 dist/
 build/
 .DS_Store
+
+
+# CUSTOM
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Marker / Surya OCR output
+ocr/
+**/ocr/
+*_meta.json
+*.review.txt
+
+
